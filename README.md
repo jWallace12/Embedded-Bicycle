@@ -1,6 +1,6 @@
 # Embedded-Bicycle
 
-LPC1114 chip used to power a bicycle.
+LPC1114 chip used to power an 18-speed bicycle.
 
 This program controls an electric bicycle. The pedals are hooked up to hall effect sensors, the front gears are connected to a servo motorc
 and the back gears are connected to a stepper motor.
@@ -12,4 +12,5 @@ If there are less than two pedals detected per second, the bike raises its gear.
 The servo and stepper motors are controlled using varying amounts of pulse widths. An I2C display writes the current overall gear, the front gear,
 and the back gear.
 
-The code is written in C, and compiled and executed using GCC-ARM.
+The code is written in C, and compiled and executed using GCC-ARM. The commands are executed on a Linux command line.
+
